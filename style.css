@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dosis&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dosis&family=Oxygen&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* Nav Section */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 10px 10px;
+    border-radius: 6px;
+    margin-top: 20px !important;
+    position: sticky;
+    z-index: 9999;
+}
+
+.nav-items ul{
+    display: flex;
+}
+
+.nav-items ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav-items ul li a{
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+
+.social-icons a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.social-icons a img{
+    width: 30px;
+}
+
+/* Nav Section End */
+
+/* Hero Section */
+
+.hero-section{
+    display: flex;
+    justify-content: space-between !important;
+    height: 92vh;
+}
+
+.hero-bg{
+    background-image: url("images/hero-bg.jpg");
+    margin-top: -20vh;
+    padding-top: 20vh;
+}
+
+.left-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-hero h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 60px;
+}
+
+.left-hero h2{
+    font-family: 'Dosis', sans-serif;
+    font-size: 45px;
+}
+
+.right-hero{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-hero img{
+    width: 80%;
+    float: right;
+}
+
+.dev-name{
+    color: blueviolet;
+    font-family: 'Raleway', sans-serif;
+}
+
+.dev-skill{
+    font-weight: 600;
+}
+
+.hero-buttons a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 10px;
+    padding: 15px 35px;
+    background-image: linear-gradient(90deg, #CA21EE, #8A2BE2);
+    border-radius: 6px;
+    color: white;
+}
+
+.hero-buttons{
+    margin-top: 30px;
+}
+
+/* Hero Section End */
